@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AxicomIM43")(type "Legacy")(uri "${KIPRJMOD}/kicad/ul_514620378/KiCAD/2021-03-07_02-01-17/2021-03-07_02-01-17.lib")(options "")(descr ""))
+  (lib (name "txfilters-rescue")(type "KiCad")(uri "${KIPRJMOD}/txfilters-rescue.kicad_sym")(options "")(descr ""))
+)

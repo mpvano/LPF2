@@ -1,0 +1,129 @@
+(footprint "MountingHole_2.7mm_M2.5_KA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, no annular, M2.5")
+	(tags "mounting hole 2.7mm no annular m2.5")
+	(property "Reference" "H3"
+		(at 0.14 -2.27 0)
+		(layer "F.SilkS")
+		(uuid "941414a6-f447-44e1-a103-d76cd707d858")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.5mm"
+		(at 0 2.43 0)
+		(layer "F.Fab")
+		(uuid "f1409b0b-7b90-4e43-ab05-35cb858b95f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cbaa7e6-99e5-437d-8986-b7f04b78e83a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DNP Hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "275fb443-1659-45c4-b9e5-155f5d98f945")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2ab7d35f-ab97-439d-8585-3f3784566890")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9901354b-171e-46d9-bf02-78e5689db5e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eee88b31-0731-406d-bdd7-e5b8341e27fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "56f93e12-29e1-4911-abab-d8d1d7e5c837")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "F.SilkS" "In2.Cu" "F.Adhes")
+		(uuid "0e33b40c-1849-48a0-a91b-5a0abe273ae8")
+		(name "SAFE")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0 2.921) (xy -2.54 1.524) (xy -2.54 -1.524) (xy 0 -2.921) (xy 2.54 -1.524) (xy 2.54 1.524)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
