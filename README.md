@@ -1,3 +1,4 @@
+![3dView](txfilters21/3dF.jpg)
 LPF2 is a combined Relay Switched Harmonic Filter, Receiver High Pass Filter, VSWR bridge and Antenna Relay board for Low Powered HF Radios. It is designed primarily for use with radio board sets that stack mechanically with the Raspberry Pi. and has been successfully used to build several different radios.
 
 The LPF2 board is compatible for stacking with boards designed to the Raspberry Pi "Hat" specification, although it is not a "hat" as it is the same size as the Pi itself and overhangs the IO connectors. It can also be used as a standalone board with anything that can provide compatible I2C and TX/RX control signals, and 3.3 Volt and Relay Power.
@@ -15,11 +16,15 @@ The board has been used primarily with "Radioberry" and "RadioHat" Boards to bui
 
 The Low Pass Filters are not suitable for extremely dirty power amplifiers. They are designed to reduce the harmonic emissions from properly designed amplifiers within legal limits by reducing the harmonics - not totally eliminating them. As such, they may not work with single ended power amplifiers without modification to the filter values - The design expects the 2nd harmonic to be somewhat reduced by the power amplifier.
 
+The filter component values are based on the popular ones originally published by the RSGB.
+
 Variations in filter material batches may requre trimming the Toroid coil values by 1 or two turns or spreading or compacting them.
 
 Anyone may use this design for any purpose whatsoever, although I would prefer that it retain some credit to me as the original designer. I will not proved support for any boards using this design that have not been actually built by ME!
 
 If you build any boards or devices using this design, you are totally responsible for any associated liabilities.
+
+This design was only possible thanks to the excellent work done by George Dobbs G3RJV, James Ahlstrom N2ADR, and everyone associated with the HL2 and Radioberry projects.
 
 Mario Vano
 AE0GL
