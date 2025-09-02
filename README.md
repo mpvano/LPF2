@@ -10,7 +10,7 @@ It can be built to use 4.5 Volt relays powered from the GPIO connector or for 12
 
 ## N2ADR Filter Compatibility
 
-The board was designed for limited software compatibility with the popular N2ADR filter board used by the Hermes Lite 2 radio and widely supported in SDR software. The board is NOT completely compatible with N2ADRs design. It differs in the following ways:
+The board was designed for limited software compatibility with the popular N2ADR filter board used by the Hermes Lite 2 radio and widely supported in SDR software. The board is NOT completely compatible with N2ADR's design. It differs in the following ways:
 
   1. The receiver low pass filter is always active - the control bit is IGNORED
   2. There are only 5 Low Pass filters. The control bit for "160 meters" is IGNORED.
@@ -30,13 +30,16 @@ The VSWR bridge transformers are conservatively designed so that the diodes are 
 Variations in filter material batches may requre trimming the Toroid coil values by 1 or two turns or spreading or compacting them.
 
 ## Hints
+
 I suggest testing the board's logic functionality while assembling it before the relays and filter components are installed since rework is difficult once the relays are in place.
 
-Anyone may use this design for any purpose whatsoever, although I would prefer that it retain some credit to me as the original designer. I will not proved support for any boards using this design that have not been actually built by ME!
+I've also provided the source for a simple TK python program I use to view the VSWR, power and battery voltage in a separate window on my radios.
 
 ## Disclaimers
 
 I designed this board for my own use. I have no plans to provide PCBs or boards to others at this time. Hopefully, if there is interest in this board others will provide for group builds, completed boards, or group purchases.
+
+Anyone may use this design for any purpose whatsoever, although I would prefer that it retain some credit to me as the original designer. I will not provide support for any boards using this design that have not been actually built by ME!
 
 If you build any boards or devices using this design, you are totally responsible for any associated liabilities.
 
